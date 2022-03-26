@@ -60,9 +60,9 @@ package com.felix.leetcode.editor.cn;
 import java.util.Arrays;
 import java.util.List;
 
-public class ReverseNodesInKGroup_25 {
+public class Code25_ReverseNodesInKGroup {
     public static void main(String[] args) {
-        Solution solution = new ReverseNodesInKGroup_25().new Solution();
+        Solution solution = new Code25_ReverseNodesInKGroup().new Solution();
         List a = Arrays.asList(1, 2, 3, 4, 5);
         ListNode head = null, next = null;
         for (int i = 0; i < a.size(); i++) {
