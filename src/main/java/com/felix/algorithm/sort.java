@@ -100,6 +100,13 @@ public class sort {
         arr[second] = temp;
     }
 
+    // 异或，无额外变量交换 first不能等于second
+    private static void swap1(int[] arr, int first, int second) {
+        arr[first] = arr[first] ^ arr[second];
+        arr[second] = arr[first] ^ arr[second];
+        arr[first] = arr[first] ^ arr[second];
+    }
+
     //选择排序
     private static void selectSort(int[] arr) {
         if (arr == null || arr.length < 2) {
